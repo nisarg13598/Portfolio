@@ -1,0 +1,197 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.menubar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #4F6D7A;
+  color: antiquewhite;
+  width: 100%;
+  position: relative;
+  height: 70px;
+}
+
+.menubar h2{
+  padding-left: 10px;
+  padding-top: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+  }
+
+  .menubar:hover{
+    color: aquamarine;
+  }
+
+  .dropbtn{
+    border: solid;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    margin-top: 15px;
+    margin-right: 60px;
+    cursor: pointer;
+  }
+
+  .dropdown{
+    display: block;
+    position: relative;
+  }
+
+  .drop-content{
+    display: none;
+    position:absolute;
+    background-color: #d17a22;
+    min-width: 160px;
+    box-shadow: 5px 5px 5px rgb(34, 34, 34);
+    z-index: 1;
+  }
+
+
+  .drop-content a{
+    color:black;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    display:block;
+  }
+
+  .drop-content a:hover{
+    background-color:azure;
+  }
+
+  .dropdown:hover .drop-content{
+    display:block;
+  }
+
+  .dropdown:hover .dropbtn{
+background-color: aquamarine;
+  }
+
+  .manage{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  
+  .dropbtn1{
+    border: solid;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    margin-top: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .dropdown1{
+    display: block;
+    position: relative;
+  }
+
+  .drop-content1{
+    display: none;
+    position:absolute;
+    background-color: #d17a22;
+    min-width: 160px;
+    box-shadow: 5px 5px 5px rgb(34, 34, 34);
+    z-index: 1;
+  }
+
+
+  .drop-content1 a{
+    color:black;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    display:block;
+  }
+
+  .drop-content1 a:hover{
+    background-color:azure;
+  }
+
+  .dropdown1:hover .drop-content1{
+    display:block;
+  }
+
+  .dropdown1:hover .dropbtn1{
+background-color: aquamarine;
+  }
+
+  .main{
+    position: relative;
+    background-color: #C0D6DF;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: calc(100vh - 70px);
+  }
+
+
+.main img{
+  height: 620px;
+  width: 500px;
+  margin-top: 15px; 
+  margin-left: 50px;
+}
+
+.superscript{
+  margin-left: 15%;
+  margin-top: 12%;
+}
+
+.introme{
+  background-color:#4A6FA5;
+  height: 20vh;
+}
+
+.aboutme{
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.para_me{
+  padding-bottom: 5px;
+}
+
+.experience{
+  background-color:#DBE9EE;
+  height: 78vh;
+}
+
+.exp{
+   text-decoration: underline;
+}
+
+.jobyear{
+  color: grey;
+  padding-top: 10px;
+}
+
+.exp{
+  padding-bottom: 5px;
+}
+
+.jobname{
+  color: green;
+  padding-bottom: 5px;
+}
+
+.edu{
+  background-color: #91c5da;
+  height: 27vh;
+}
+
+.education{
+  text-decoration: underline;
+}
+
+.contact{
+  height: 30vh;
+}
+
+.cntct{
+  text-decoration: underline;
+  padding-bottom: 10px;
+  
+}
